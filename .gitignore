@@ -19,7 +19,7 @@ npm-debug.log*
 .versions/
 coverage/
 dist/
-hooks/
+hooks2/
 node_modules/
 tmp/
 temp/
