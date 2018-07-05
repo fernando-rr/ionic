@@ -1,0 +1,8 @@
+#!/bin/bash
+BRANCHES=`git branch --list 'tes*'`
+for BRANCH in "${BRANCHES[@]}";
+do
+    git checkout $BRANCH
+    git rebase master
+done
+git checkout master
